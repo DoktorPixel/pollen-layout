@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.header-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: block;
+    width: 111px;
+    height: 17px;
+    background-image: url('../../images/pollen-logo.svg');
+
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header-list-item:not(:first-child) {
+    margin-left: 40px;
+}
+
+.header-list-link {
+    display: flex;
+    align-items: baseline;
+}
+
+.header-list-icon {
+    display: block;
+    width: 14px;
+    height: 7px;
+    margin-left: 14px;
+    background-image: url('../../images/arrow-down.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-button:not(:first-child) {
+    margin-left: 24px;
+}
+
+.header-mobile-menu-icon {
+    display: none;
+    width: 34px;
+    height: 34px;
+    background-image: url('../../images/header-menu-icon.svg');
+    background-size: contain;
+}
+
+@media screen and (max-width: 1124px) {
+    .header-list {
+        display: none;
+    }
+    .header-buttons-box {
+        display: none;
+    }
+    .header-mobile-menu-icon { 
+        display: block;
+    }
+}
