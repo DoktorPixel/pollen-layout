@@ -1,0 +1,23 @@
+.primary-button {
+    display: block;
+    padding: 0 24px;
+    background-color: var(--green);
+    border-radius: 48px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    color: var(--white)
+}
+
+.secondary-button {
+    display: block;
+    padding: 0 24px;
+    border: 2px solid var(--green);
+    border-radius: 48px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    color: var(--green);
+}

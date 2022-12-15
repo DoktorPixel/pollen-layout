@@ -10,12 +10,44 @@ body {
     letter-spacing: -0.8px;
     line-height: 64px;
     text-transform: uppercase;
-    color: #020202;
+    color: var(--primary-black);
 }
 
-@media screen and (max-width: 992px) {
-    .primary-title-font  {
+@media screen and (max-width: 1124px) {
+    .primary-title-font {
         font-size: 48px;
         letter-spacing: -0.6px;
     }
+}
+
+.primary-subtitle-font {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--green);
+}
+
+@media screen and (max-width: 1124px) {
+    .primary-subtitle-font {
+        font-size: 23px;
+        font-weight: 500;
+    }
+}
+
+.primary-description-font {
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--secondary-black)
+}
+
+@media screen and (max-width: 1124px) {
+    .primary-description-font {
+        font-weight: 300;
+        font-size: 16px;
+    }
+}
+
+.primary-link-font {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--primary-black);
 }

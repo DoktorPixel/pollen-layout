@@ -55,6 +55,16 @@
     background-size: contain;
 }
 
+.header-buttons-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-button:not(:first-child) {
+    margin-left: 24px;
+}
+
 @media screen and (max-width: 1124px) {
     .header-list {
         display: none;

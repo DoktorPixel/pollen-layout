@@ -23,7 +23,8 @@
 }
 
 .hero-section-button {
-    
+    max-width: 288px;
+    width: 100%;
 }
 
 .hero-section-image-box {

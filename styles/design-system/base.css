@@ -6,10 +6,14 @@
     box-sizing: border-box;
 }
 
+button {
+    outline: none;
+    border: none;
+}
+
 .page-wrapper {
     max-width: 1180px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    background-color: antiquewhite;
 }
